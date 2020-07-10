@@ -13,7 +13,7 @@ This project requires **Python 3.x** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-### 1. Clustering
+### 1. K Means Clustering
 
 In this section, the following methods/examples are implemented:
 
@@ -21,3 +21,16 @@ In this section, the following methods/examples are implemented:
 - Effects of changing K on the result. Deciding the K by Elbow method: Changing K.ipynb
 - Feature scaling implementation in Python: Feature Scaling Example.ipynb
 - Feature Scaling using StandardScaler and MinMaxScaler: Feature Scaling.ipynb
+
+### 2. Hierarchical Clustering
+
+In this section, the following methods/examples are implemented:
+
+- AgglomerativeClustering in sklearn with:
+	- Ward's linkage
+	- Average linkage
+	- Complete linkage
+- Performance metrics: adjusted_rand_score
+- Effect of normalization on clustering
+- Dendrogram visualization with scipy
+- Visualization with Seaborn's clustermap
