@@ -13,24 +13,34 @@ This project requires **Python 3.x** and the following Python libraries installe
 
 You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
 
-### 1. K Means Clustering
+### 1. Clustering
 
-In this section, the following methods/examples are implemented:
+	#### 1. K Means Clustering
 
-- Identifying number of clusters (K) required for a dataset : Identifying_Clusters.ipynb
-- Effects of changing K on the result. Deciding the K by Elbow method: Changing K.ipynb
-- Feature scaling implementation in Python: Feature Scaling Example.ipynb
-- Feature Scaling using StandardScaler and MinMaxScaler: Feature Scaling.ipynb
+	In this section, the following methods/examples are implemented:
 
-### 2. Hierarchical Clustering
+	- Identifying number of clusters (K) required for a dataset : Identifying_Clusters.ipynb
+	- Effects of changing K on the result. Deciding the K by Elbow method: Changing K.ipynb
+	- Feature scaling implementation in Python: Feature Scaling Example.ipynb
+	- Feature Scaling using StandardScaler and MinMaxScaler: Feature Scaling.ipynb
 
-In this section, the following methods/examples are implemented:
+	#### 2. Hierarchical Clustering
 
-- AgglomerativeClustering in sklearn with:
-	- Ward's linkage
-	- Average linkage
-	- Complete linkage
-- Performance metrics: adjusted_rand_score
-- Effect of normalization on clustering
-- Dendrogram visualization with scipy
-- Visualization with Seaborn's clustermap
+	In this section, the following methods/examples are implemented:
+
+	- AgglomerativeClustering in sklearn with:
+		- Ward's linkage
+		- Average linkage
+		- Complete linkage
+	- Performance metrics: adjusted_rand_score
+	- Effect of normalization on clustering
+	- Dendrogram visualization with scipy
+	- Visualization with Seaborn's clustermap
+	
+	#### 3. DBSCAN: Density based clustering
+	
+	In this section, the following methods/examples are implemented:
+	
+	- Implementat DBSCAN in sklearn.
+	- Changing the values of 'epsilon' and 'min_samples'.
+	- Heuristics for experimenting with DBSCAN's parameters
