@@ -44,3 +44,10 @@ You will also need to have software installed to run and execute an [iPython Not
 	- Implementat DBSCAN in sklearn.
 	- Changing the values of 'epsilon' and 'min_samples'.
 	- Heuristics for experimenting with DBSCAN's parameters
+	
+	#### 4. Gaussian mixture clustering and Cluster validation.
+	
+	In this section, the following methods/examples are implemented:
+	
+	- Implementation of Gaussian mixture clustering in sklearn
+	- Comparing clustering methods using external metric 'adjected rand index'
