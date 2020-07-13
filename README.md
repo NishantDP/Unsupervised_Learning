@@ -51,3 +51,13 @@ You will also need to have software installed to run and execute an [iPython Not
 	
 	- Implementation of Gaussian mixture clustering in sklearn
 	- Comparing clustering methods using external metric 'adjected rand index'
+	
+### 2. Dimensionality reduction
+
+	#### 1. Principal component analysis
+	
+	In this section, the following methods/examples are implemented:
+	
+	- Implementation of PCA in sklearn
+	- Understanding the results of PCA object
+	- Case study.
