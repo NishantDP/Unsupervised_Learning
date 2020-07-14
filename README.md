@@ -61,3 +61,5 @@ You will also need to have software installed to run and execute an [iPython Not
 	- Implementation of PCA in sklearn
 	- Understanding the results of PCA object
 	- Case study.
+	
+	#### 2. Independent coomponent analysis
